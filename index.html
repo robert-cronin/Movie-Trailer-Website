@@ -59,7 +59,7 @@
         // Start playing the video whenever the trailer modal is opened
         $(document).on('click', '.movie-tile', function (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
-            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            var sourceUrl = 'https://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
               'id': 'trailer-video',
               'type': 'text-html',
@@ -120,7 +120,7 @@
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="VWGqGHMO294" data-toggle="modal" data-target="#trailer">
-    <img src="http://static.rogerebert.com/uploads/movie/movie_poster/planes-trains-and-automobiles-1987/large_3r93acWXFDcxOwo4XfeBi5RhuPR.jpg" width="220" height="342">
+    <img src="https://static.rogerebert.com/uploads/movie/movie_poster/planes-trains-and-automobiles-1987/large_3r93acWXFDcxOwo4XfeBi5RhuPR.jpg" width="220" height="342">
     <h2>Planes Trains and Automobiles</h2>
 </div>
 
